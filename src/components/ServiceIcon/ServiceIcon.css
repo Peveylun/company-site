@@ -1,0 +1,56 @@
+.service-icons {
+    position: relative;
+    height: 500px;
+    width: 500px;
+}
+
+.star {
+    width: 91px;
+    height: 128px;
+    top: 43%;
+    left: 42%;
+    position: absolute;
+}
+
+.icon {
+    width: 221px;
+    height: 221px;
+    position: absolute;
+}
+
+.icon::before {
+    content: "";
+    display: block;
+    background: currentColor;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.icon1 {
+    top: 34%;
+    left: 0%;
+}
+
+.icon2 {
+    top: 60%;
+    left: 15%;
+}
+
+.icon3 {
+    top: 60%;
+    left: 45%;
+}
+
+.icon4 {
+    top: 34%;
+    left: 60%;
+}
+
+.icon5 {
+    top: 8%;
+    left: 45%;
+}
+
+.icon6 {
+    top: 8%;
+    left: 15%;
+}

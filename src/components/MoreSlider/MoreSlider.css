@@ -1,0 +1,29 @@
+.slider-but {
+    color: #132577;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.15);
+    border: #132577 solid 2px;
+}
+
+.slider-but1 {
+    left: -5%;
+}
+
+.slider-but2 {
+    left: 80%;
+}
+
+.slider-but3 {
+    left: 85%;
+}
+
+.slider-text1 {
+    left: 7%;
+}
+
+.slider-text2 {
+
+}
+
+.slider-text3 {
+
+}
