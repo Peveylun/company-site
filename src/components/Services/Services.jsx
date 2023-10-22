@@ -1,12 +1,15 @@
 import "./Services.css"
-import ServiceTitle from "../ServiceTitle/ServiceTitle.jsx";
 import ServiceCard from "../ServiceCard/ServiceCard.jsx";
 import CompanyInfo from "../CompanyInfo/CompanyInfo.jsx";
 
 function Services() {
   return (
     <div className="container max-w-full pt-14">
-      <ServiceTitle></ServiceTitle>
+        <div className="w-full flex flex-col items-center">
+          <p className="services">SERVICES</p>
+          <p className="font-bold service-title">We provide All-in-one Solution</p>
+          <p className="font-bold service-title">For every IT job</p>
+        </div>
       <div className="card-holder max-w-full h-72
       flex justify-center space-x-20 pt-8">
         <ServiceCard title="Software Development" text="Posuere morbi leo urna molestie at elementum eu egestas." link="#"></ServiceCard>
