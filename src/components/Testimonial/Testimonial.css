@@ -1,5 +1,13 @@
+.testimonial {
+    height: 600px;
+}
+
 .testimonial-title {
     color: #132577;
     font-weight: 500;
     font-size: 20px;
+}
+
+.card {
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.15);
 }
